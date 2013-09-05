@@ -24,6 +24,8 @@
         </activity>
         <activity android:name="com.example.helloanimation.demo1.BasicAnimationActivity" >
         </activity>
+        <activity android:name="com.example.helloanimation.demo1.AnimationFromXmlActivity" >
+        </activity>
     </application>
 
 </manifest>

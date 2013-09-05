@@ -1,7 +1,7 @@
 package com.example.helloanimation.demo;
 
-
 import com.example.helloanimation.R;
+import com.example.helloanimation.demo1.AnimationFromXmlActivity;
 import com.example.helloanimation.demo1.BasicAnimationActivity;
 
 import android.os.Bundle;
@@ -15,15 +15,14 @@ import android.widget.ListView;
 
 /**
  * 
- * @ClassName: MainActivity 
+ * @ClassName: MainActivity
  * @Description: 入口，将各个Demo列在一个ListView中
  * @author Meng Dandan
  * @date 2013年9月4日
- *
+ * 
  */
 public class MainActivity extends ListActivity {
 
-	
 	private static Sample[] mSamples;
 
 	@Override
@@ -32,25 +31,27 @@ public class MainActivity extends ListActivity {
 		setContentView(R.layout.activity_hello_animation);
 
 		// Instantiate the list of samples.
-		mSamples = new Sample[] { new Sample(R.string.demo1,
-				BasicAnimationActivity.class)
+		mSamples = new Sample[] {
+				new Sample(R.string.demo1, BasicAnimationActivity.class),
+				new Sample(R.string.demo2, AnimationFromXmlActivity.class)
 
 		};
-		
-		//设置Adapter
-        setListAdapter(new ArrayAdapter<Sample>(this,
-                android.R.layout.simple_list_item_1,
-                android.R.id.text1,
-                mSamples));
+
+		// 设置Adapter
+		setListAdapter(new ArrayAdapter<Sample>(this,
+				android.R.layout.simple_list_item_1, android.R.id.text1,
+				mSamples));
 	}
 
-    @Override
-    protected void onListItemClick(ListView listView, View view, int position, long id) {
-        // Launch the sample associated with this list position.
-        startActivity(new Intent(MainActivity.this, mSamples[position].activityClass));
-    }
+	@Override
+	protected void onListItemClick(ListView listView, View view, int position,
+			long id) {
+		// Launch the sample associated with this list position.
+		startActivity(new Intent(MainActivity.this,
+				mSamples[position].activityClass));
+	}
 
-	//私有类，List中的每一个例子
+	// 私有类，List中的每一个例子
 	private class Sample {
 		private CharSequence title;
 		private Class<? extends Activity> activityClass;

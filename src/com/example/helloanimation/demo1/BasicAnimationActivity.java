@@ -59,7 +59,7 @@ public class BasicAnimationActivity extends Activity {
 		// 圆形球
 		public final ArrayList<ShapeHolder> balls = new ArrayList<ShapeHolder>();
 
-		// 动画集合
+		// 总的动画集合
 		AnimatorSet animation = null;
 
 		// 屏幕密度
