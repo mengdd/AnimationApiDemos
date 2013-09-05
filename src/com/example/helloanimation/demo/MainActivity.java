@@ -1,8 +1,10 @@
 package com.example.helloanimation.demo;
 
 import com.example.helloanimation.R;
-import com.example.helloanimation.demo1.AnimationFromXmlActivity;
-import com.example.helloanimation.demo1.BasicAnimationActivity;
+import com.example.helloanimation.basic.AnimationFromXmlActivity;
+import com.example.helloanimation.basic.BasicAnimationActivity;
+import com.example.helloanimation.practice.BouncingBalls;
+import com.example.helloanimation.practice.CustomEvaluator;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -32,8 +34,10 @@ public class MainActivity extends ListActivity {
 
 		// Instantiate the list of samples.
 		mSamples = new Sample[] {
-				new Sample(R.string.demo1, BasicAnimationActivity.class),
-				new Sample(R.string.demo2, AnimationFromXmlActivity.class)
+				new Sample(R.string.basic, BasicAnimationActivity.class),
+				new Sample(R.string.basic_xml, AnimationFromXmlActivity.class),
+				new Sample(R.string.bouncing_balls, BouncingBalls.class),
+				new Sample(R.string.custom_evaluator, CustomEvaluator.class)
 
 		};
 

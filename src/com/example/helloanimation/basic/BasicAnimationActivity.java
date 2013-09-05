@@ -1,4 +1,4 @@
-package com.example.helloanimation.demo1;
+package com.example.helloanimation.basic;
 
 import java.util.ArrayList;
 

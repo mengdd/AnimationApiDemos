@@ -22,9 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.helloanimation.demo1.BasicAnimationActivity" >
+        <activity android:name="com.example.helloanimation.basic.BasicAnimationActivity" >
         </activity>
-        <activity android:name="com.example.helloanimation.demo1.AnimationFromXmlActivity" >
+        <activity android:name="com.example.helloanimation.basic.AnimationFromXmlActivity" >
+        </activity>
+        
+               <activity android:name="com.example.helloanimation.practice.BouncingBalls" >
+        </activity>
+        <activity android:name="com.example.helloanimation.practice.CustomEvaluator" >
         </activity>
     </application>
 

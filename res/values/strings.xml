@@ -4,8 +4,9 @@
     <string name="app_name">HelloAnimation</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="demo1">Basic Animation</string>
-    <string name="demo2">Animation from XML</string>
-    <string name="demo3">Demo3</string>
+    <string name="basic">Basic Animation</string>
+    <string name="basic_xml">Animation from XML</string>
+    <string name="bouncing_balls">Bouncing Balls</string>
+    <string name="custom_evaluator">Custom Evaluator</string>
 
 </resources>
