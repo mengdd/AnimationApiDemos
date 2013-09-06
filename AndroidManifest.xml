@@ -26,10 +26,17 @@
         </activity>
         <activity android:name="com.example.helloanimation.basic.AnimationFromXmlActivity" >
         </activity>
-        
-               <activity android:name="com.example.helloanimation.practice.BouncingBalls" >
+        <activity android:name="com.example.helloanimation.practice.BouncingBalls" >
         </activity>
         <activity android:name="com.example.helloanimation.practice.CustomEvaluator" >
+        </activity>
+        <activity android:name="com.example.helloanimation.practice.MultiPropertyAnimation" >
+        </activity>
+        <activity android:name="com.example.helloanimation.layout.LayoutAnimations" >
+        </activity>
+        <activity android:name="com.example.helloanimation.layout.LayoutAnimationsByDefault" >
+        </activity>
+        <activity android:name="com.example.helloanimation.layout.LayoutAnimationsHideShow" >
         </activity>
     </application>
 

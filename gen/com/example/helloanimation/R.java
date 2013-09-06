@@ -30,15 +30,28 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090002;
+        public static final int action_settings=0x7f09000b;
+        public static final int addNewButton=0x7f090003;
+        public static final int appearingCB=0x7f090005;
+        public static final int changingAppearingCB=0x7f090007;
+        public static final int changingDisappearingCB=0x7f090008;
         public static final int container=0x7f090000;
+        public static final int customAnimCB=0x7f090004;
+        public static final int disappearingCB=0x7f090006;
+        public static final int gridContainer=0x7f090009;
+        public static final int hideGoneCB=0x7f09000a;
+        public static final int parent=0x7f090002;
         public static final int startButton=0x7f090001;
     }
     public static final class layout {
         public static final int activity_hello_animation=0x7f030000;
         public static final int animation_basic=0x7f030001;
-        public static final int animator_custom_evaluator=0x7f030002;
-        public static final int bouncing_balls=0x7f030003;
+        public static final int animation_multi_property=0x7f030002;
+        public static final int animator_custom_evaluator=0x7f030003;
+        public static final int bouncing_balls=0x7f030004;
+        public static final int layout_animations=0x7f030005;
+        public static final int layout_animations_by_default=0x7f030006;
+        public static final int layout_animations_hideshow=0x7f030007;
     }
     public static final class menu {
         public static final int hello_animation=0x7f080000;
@@ -51,6 +64,10 @@ public final class R {
         public static final int bouncing_balls=0x7f060005;
         public static final int custom_evaluator=0x7f060006;
         public static final int hello_world=0x7f060002;
+        public static final int layout_ani=0x7f060008;
+        public static final int layout_ani_default=0x7f060009;
+        public static final int layout_ani_hide=0x7f06000a;
+        public static final int multi_property=0x7f060007;
     }
     public static final class style {
         /** 

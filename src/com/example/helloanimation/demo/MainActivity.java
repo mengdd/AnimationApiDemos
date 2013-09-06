@@ -3,8 +3,12 @@ package com.example.helloanimation.demo;
 import com.example.helloanimation.R;
 import com.example.helloanimation.basic.AnimationFromXmlActivity;
 import com.example.helloanimation.basic.BasicAnimationActivity;
+import com.example.helloanimation.layout.LayoutAnimations;
+import com.example.helloanimation.layout.LayoutAnimationsByDefault;
+import com.example.helloanimation.layout.LayoutAnimationsHideShow;
 import com.example.helloanimation.practice.BouncingBalls;
 import com.example.helloanimation.practice.CustomEvaluator;
+import com.example.helloanimation.practice.MultiPropertyAnimation;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -37,7 +41,13 @@ public class MainActivity extends ListActivity {
 				new Sample(R.string.basic, BasicAnimationActivity.class),
 				new Sample(R.string.basic_xml, AnimationFromXmlActivity.class),
 				new Sample(R.string.bouncing_balls, BouncingBalls.class),
-				new Sample(R.string.custom_evaluator, CustomEvaluator.class)
+				new Sample(R.string.custom_evaluator, CustomEvaluator.class),
+				new Sample(R.string.multi_property, MultiPropertyAnimation.class),
+				new Sample(R.string.layout_ani, LayoutAnimations.class),
+				new Sample(R.string.layout_ani_default,
+						LayoutAnimationsByDefault.class),
+				new Sample(R.string.layout_ani_hide,
+						LayoutAnimationsHideShow.class)
 
 		};
 

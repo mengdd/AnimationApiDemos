@@ -8,5 +8,9 @@
     <string name="basic_xml">Animation from XML</string>
     <string name="bouncing_balls">Bouncing Balls</string>
     <string name="custom_evaluator">Custom Evaluator</string>
+     <string name="multi_property">Multi Property</string>
+    <string name="layout_ani">Layout Animation</string>
+    <string name="layout_ani_default">Layout Animation Default</string>
+    <string name="layout_ani_hide">Layout Hide Show</string>
 
 </resources>
