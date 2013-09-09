@@ -12,7 +12,9 @@ public final class R {
         public static final int animator=0x7f040000;
         public static final int animator_set=0x7f040001;
         public static final int color_animator=0x7f040002;
-        public static final int object_animator=0x7f040003;
+        public static final int layout_bottom_to_top_slide=0x7f040003;
+        public static final int object_animator=0x7f040004;
+        public static final int slide_right=0x7f040005;
     }
     public static final class attr {
     }
@@ -28,30 +30,38 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int photo1=0x7f020001;
+        public static final int photo2=0x7f020002;
+        public static final int photo3=0x7f020003;
+        public static final int photo4=0x7f020004;
+        public static final int photo5=0x7f020005;
+        public static final int photo6=0x7f020006;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000b;
-        public static final int addNewButton=0x7f090003;
-        public static final int appearingCB=0x7f090005;
-        public static final int changingAppearingCB=0x7f090007;
-        public static final int changingDisappearingCB=0x7f090008;
+        public static final int action_settings=0x7f09000c;
+        public static final int addNewButton=0x7f090004;
+        public static final int appearingCB=0x7f090006;
+        public static final int changingAppearingCB=0x7f090008;
+        public static final int changingDisappearingCB=0x7f090009;
         public static final int container=0x7f090000;
-        public static final int customAnimCB=0x7f090004;
-        public static final int disappearingCB=0x7f090006;
-        public static final int gridContainer=0x7f090009;
-        public static final int hideGoneCB=0x7f09000a;
-        public static final int parent=0x7f090002;
+        public static final int customAnimCB=0x7f090005;
+        public static final int disappearingCB=0x7f090007;
+        public static final int gridContainer=0x7f09000a;
+        public static final int hideGoneCB=0x7f09000b;
+        public static final int parent=0x7f090003;
+        public static final int picture=0x7f090002;
         public static final int startButton=0x7f090001;
     }
     public static final class layout {
         public static final int activity_hello_animation=0x7f030000;
         public static final int animation_basic=0x7f030001;
         public static final int animation_multi_property=0x7f030002;
-        public static final int animator_custom_evaluator=0x7f030003;
-        public static final int bouncing_balls=0x7f030004;
-        public static final int layout_animations=0x7f030005;
-        public static final int layout_animations_by_default=0x7f030006;
-        public static final int layout_animations_hideshow=0x7f030007;
+        public static final int animations_main_screen=0x7f030003;
+        public static final int animator_custom_evaluator=0x7f030004;
+        public static final int bouncing_balls=0x7f030005;
+        public static final int layout_animations=0x7f030006;
+        public static final int layout_animations_by_default=0x7f030007;
+        public static final int layout_animations_hideshow=0x7f030008;
     }
     public static final class menu {
         public static final int hello_animation=0x7f080000;
@@ -68,6 +78,7 @@ public final class R {
         public static final int layout_ani_default=0x7f060009;
         public static final int layout_ani_hide=0x7f06000a;
         public static final int multi_property=0x7f060007;
+        public static final int transition_3d=0x7f06000b;
     }
     public static final class style {
         /** 

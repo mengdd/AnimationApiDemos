@@ -9,6 +9,7 @@ import com.example.helloanimation.layout.LayoutAnimationsHideShow;
 import com.example.helloanimation.practice.BouncingBalls;
 import com.example.helloanimation.practice.CustomEvaluator;
 import com.example.helloanimation.practice.MultiPropertyAnimation;
+import com.example.helloanimation.threed.Transition3d;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -42,12 +43,14 @@ public class MainActivity extends ListActivity {
 				new Sample(R.string.basic_xml, AnimationFromXmlActivity.class),
 				new Sample(R.string.bouncing_balls, BouncingBalls.class),
 				new Sample(R.string.custom_evaluator, CustomEvaluator.class),
-				new Sample(R.string.multi_property, MultiPropertyAnimation.class),
+				new Sample(R.string.multi_property,
+						MultiPropertyAnimation.class),
 				new Sample(R.string.layout_ani, LayoutAnimations.class),
 				new Sample(R.string.layout_ani_default,
 						LayoutAnimationsByDefault.class),
 				new Sample(R.string.layout_ani_hide,
-						LayoutAnimationsHideShow.class)
+						LayoutAnimationsHideShow.class),
+				new Sample(R.string.transition_3d, Transition3d.class)
 
 		};
 

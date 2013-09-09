@@ -38,6 +38,8 @@
         </activity>
         <activity android:name="com.example.helloanimation.layout.LayoutAnimationsHideShow" >
         </activity>
+        <activity android:name="com.example.helloanimation.threed.Transition3d" >
+        </activity>
     </application>
 
 </manifest>
