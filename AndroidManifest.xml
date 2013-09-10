@@ -40,6 +40,10 @@
         </activity>
         <activity android:name="com.example.helloanimation.threed.Transition3d" >
         </activity>
+        <activity android:name="com.example.viewflipper.BookActivity" >
+        </activity>
+        <activity android:name="com.example.orrery.OrreryActivity" >
+        </activity>
     </application>
 
 </manifest>

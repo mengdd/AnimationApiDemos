@@ -10,6 +10,8 @@ import com.example.helloanimation.practice.BouncingBalls;
 import com.example.helloanimation.practice.CustomEvaluator;
 import com.example.helloanimation.practice.MultiPropertyAnimation;
 import com.example.helloanimation.threed.Transition3d;
+import com.example.orrery.OrreryActivity;
+import com.example.viewflipper.BookActivity;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -50,7 +52,9 @@ public class MainActivity extends ListActivity {
 						LayoutAnimationsByDefault.class),
 				new Sample(R.string.layout_ani_hide,
 						LayoutAnimationsHideShow.class),
-				new Sample(R.string.transition_3d, Transition3d.class)
+				new Sample(R.string.transition_3d, Transition3d.class),
+				new Sample(R.string.book, BookActivity.class),
+				new Sample(R.string.orrery, OrreryActivity.class)
 
 		};
 
