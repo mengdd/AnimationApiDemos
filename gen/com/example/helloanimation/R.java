@@ -42,27 +42,28 @@ public final class R {
         public static final int photo6=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f090014;
-        public static final int addNewButton=0x7f090009;
-        public static final int appearingCB=0x7f09000b;
-        public static final int bouncingball=0x7f090005;
-        public static final int changingAppearingCB=0x7f09000d;
-        public static final int changingDisappearingCB=0x7f09000e;
+        public static final int action_settings=0x7f090015;
+        public static final int addNewButton=0x7f09000a;
+        public static final int appearingCB=0x7f09000c;
+        public static final int bouncingball=0x7f090006;
+        public static final int changingAppearingCB=0x7f09000e;
+        public static final int changingDisappearingCB=0x7f09000f;
         public static final int container=0x7f090000;
-        public static final int customAnimCB=0x7f09000a;
-        public static final int disappearingCB=0x7f09000c;
-        public static final int frame=0x7f090012;
-        public static final int gridContainer=0x7f09000f;
-        public static final int hideGoneCB=0x7f090010;
-        public static final int main=0x7f090011;
-        public static final int next=0x7f090007;
-        public static final int orrery=0x7f090013;
-        public static final int pages=0x7f090003;
-        public static final int parent=0x7f090008;
+        public static final int customAnimCB=0x7f09000b;
+        public static final int disappearingCB=0x7f09000d;
+        public static final int frame=0x7f090013;
+        public static final int gridContainer=0x7f090010;
+        public static final int hideGoneCB=0x7f090011;
+        public static final int main=0x7f090012;
+        public static final int next=0x7f090008;
+        public static final int orrery=0x7f090014;
+        public static final int pages=0x7f090004;
+        public static final int parent=0x7f090009;
         public static final int picture=0x7f090002;
-        public static final int prev=0x7f090006;
-        public static final int rollingball=0x7f090004;
+        public static final int prev=0x7f090007;
+        public static final int rollingball=0x7f090005;
         public static final int startButton=0x7f090001;
+        public static final int target=0x7f090003;
     }
     public static final class layout {
         public static final int activity_hello_animation=0x7f030000;
@@ -70,12 +71,13 @@ public final class R {
         public static final int animation_multi_property=0x7f030002;
         public static final int animations_main_screen=0x7f030003;
         public static final int animator_custom_evaluator=0x7f030004;
-        public static final int book_layout=0x7f030005;
-        public static final int bouncing_balls=0x7f030006;
-        public static final int layout_animations=0x7f030007;
-        public static final int layout_animations_by_default=0x7f030008;
-        public static final int layout_animations_hideshow=0x7f030009;
-        public static final int orrery_main=0x7f03000a;
+        public static final int basic_view_animation=0x7f030005;
+        public static final int book_layout=0x7f030006;
+        public static final int bouncing_balls=0x7f030007;
+        public static final int layout_animations=0x7f030008;
+        public static final int layout_animations_by_default=0x7f030009;
+        public static final int layout_animations_hideshow=0x7f03000a;
+        public static final int orrery_main=0x7f03000b;
     }
     public static final class menu {
         public static final int hello_animation=0x7f080000;
@@ -95,6 +97,7 @@ public final class R {
         public static final int multi_property=0x7f060007;
         public static final int orrery=0x7f06000d;
         public static final int transition_3d=0x7f06000b;
+        public static final int view=0x7f06000e;
     }
     public static final class style {
         /** 

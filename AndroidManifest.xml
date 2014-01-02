@@ -44,6 +44,8 @@
         </activity>
         <activity android:name="com.example.orrery.OrreryActivity" >
         </activity>
+        <activity android:name="com.example.viewanimation.basic.BasicAnimationDemoActivity" >
+        </activity>
     </application>
 
 </manifest>

@@ -15,5 +15,6 @@
     <string name="transition_3d">Transition 3D</string>
     <string name="book">Book Flipper</string>
     <string name="orrery">Orrery</string>
+    <string name="view">View Animation Demo</string>
 
 </resources>

@@ -1,5 +1,13 @@
 package com.example.helloanimation.demo;
 
+import android.app.Activity;
+import android.app.ListActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
 import com.example.helloanimation.R;
 import com.example.helloanimation.basic.AnimationFromXmlActivity;
 import com.example.helloanimation.basic.BasicAnimationActivity;
@@ -11,24 +19,16 @@ import com.example.helloanimation.practice.CustomEvaluator;
 import com.example.helloanimation.practice.MultiPropertyAnimation;
 import com.example.helloanimation.threed.Transition3d;
 import com.example.orrery.OrreryActivity;
+import com.example.viewanimation.basic.BasicAnimationDemoActivity;
 import com.example.viewflipper.BookActivity;
 
-import android.os.Bundle;
-import android.app.Activity;
-import android.app.ListActivity;
-import android.content.Intent;
-import android.view.Menu;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-
 /**
- * 
+ *
  * @ClassName: MainActivity
  * @Description: 入口，将各个Demo列在一个ListView中
  * @author Meng Dandan
  * @date 2013年9月4日
- * 
+ *
  */
 public class MainActivity extends ListActivity {
 
@@ -54,7 +54,8 @@ public class MainActivity extends ListActivity {
 						LayoutAnimationsHideShow.class),
 				new Sample(R.string.transition_3d, Transition3d.class),
 				new Sample(R.string.book, BookActivity.class),
-				new Sample(R.string.orrery, OrreryActivity.class)
+				new Sample(R.string.orrery, OrreryActivity.class),
+				new Sample(R.string.view, BasicAnimationDemoActivity.class)
 
 		};
 
