@@ -20,6 +20,7 @@ import com.example.helloanimation.practice.MultiPropertyAnimation;
 import com.example.helloanimation.threed.Transition3d;
 import com.example.orrery.OrreryActivity;
 import com.example.viewanimation.basic.BasicAnimationDemoActivity;
+import com.example.viewanimation.basic.BasicXMLAnimationActivity;
 import com.example.viewflipper.BookActivity;
 
 /**
@@ -55,7 +56,8 @@ public class MainActivity extends ListActivity {
 				new Sample(R.string.transition_3d, Transition3d.class),
 				new Sample(R.string.book, BookActivity.class),
 				new Sample(R.string.orrery, OrreryActivity.class),
-				new Sample(R.string.view, BasicAnimationDemoActivity.class)
+				new Sample(R.string.view, BasicAnimationDemoActivity.class),
+				new Sample(R.string.view_xml, BasicXMLAnimationActivity.class)
 
 		};
 

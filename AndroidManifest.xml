@@ -46,6 +46,8 @@
         </activity>
         <activity android:name="com.example.viewanimation.basic.BasicAnimationDemoActivity" >
         </activity>
+        <activity android:name="com.example.viewanimation.basic.BasicXMLAnimationActivity" >
+        </activity>
     </application>
 
 </manifest>

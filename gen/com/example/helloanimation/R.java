@@ -9,15 +9,21 @@ package com.example.helloanimation;
 
 public final class R {
     public static final class anim {
-        public static final int animator=0x7f040000;
-        public static final int animator_set=0x7f040001;
-        public static final int color_animator=0x7f040002;
-        public static final int fade_in=0x7f040003;
-        public static final int layout_bottom_to_top_slide=0x7f040004;
-        public static final int object_animator=0x7f040005;
-        public static final int slide_in=0x7f040006;
-        public static final int slide_out=0x7f040007;
-        public static final int slide_right=0x7f040008;
+        public static final int alpha_ani_set=0x7f040000;
+        public static final int animator=0x7f040001;
+        public static final int animator_set=0x7f040002;
+        public static final int color_animator=0x7f040003;
+        public static final int fade_in=0x7f040004;
+        public static final int layout_bottom_to_top_slide=0x7f040005;
+        public static final int object_animator=0x7f040006;
+        public static final int rotate_one=0x7f040007;
+        public static final int rotate_two=0x7f040008;
+        public static final int scale_one=0x7f040009;
+        public static final int slide_in=0x7f04000a;
+        public static final int slide_out=0x7f04000b;
+        public static final int slide_right=0x7f04000c;
+        public static final int translate_one=0x7f04000d;
+        public static final int translate_two=0x7f04000e;
     }
     public static final class attr {
     }
@@ -98,6 +104,7 @@ public final class R {
         public static final int orrery=0x7f06000d;
         public static final int transition_3d=0x7f06000b;
         public static final int view=0x7f06000e;
+        public static final int view_xml=0x7f06000f;
     }
     public static final class style {
         /** 

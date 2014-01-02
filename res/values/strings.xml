@@ -16,5 +16,6 @@
     <string name="book">Book Flipper</string>
     <string name="orrery">Orrery</string>
     <string name="view">View Animation Demo</string>
+    <string name="view_xml">View XML Animation Demo</string>
 
 </resources>
